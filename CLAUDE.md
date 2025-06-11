@@ -15,15 +15,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `karabiner.json`は以下の構造に従います：
 - `profiles[]`: 設定プロファイルの配列
-- `devices[]`: 各プロファイル内のデバイス固有設定
-- `simple_modifications[]`: 基本的なキー再マッピングルール
+- `simple_modifications[]`: 基本的なキー再マッピングルール（全キーボード適用）
+- `complex_modifications`: 複雑なキー組み合わせやルール
 - `virtual_hid_keyboard`: 国コードやキーボードタイプを含む仮想キーボード設定
 
 ## 現在の設定
 
-アクティブな設定はJISキーボードレイアウトを使用し、基本的なキー再マッピングを含みます：
-- 右Command → F7
-- 右Shift → F6
+アクティブな設定はJISキーボードレイアウトを使用し、以下のキーマッピングを含みます：
+
+### Simple Modifications（基本キー変更）
+- 右⌘キー → F7（カタカナ変換）
+- 右Shiftキー → F6（ひらがな変換）
+
+### Complex Modifications（複合キー操作）
+- Ctrl+hjkl → 矢印キー（Vim風ナビゲーション）
+- Ctrl+Space → Enter
+- Ctrl+B → Backspace
+- Ctrl+X → Ctrl+K（行末まで削除）
+- Ctrl+I → F2（Excel編集モード）
+- Ctrl+S → Shift+⌘+Ctrl+4（スクリーンショット→クリップボード）
 
 ## 設定の編集について
 
