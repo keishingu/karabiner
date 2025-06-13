@@ -338,6 +338,26 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "description": "Ctrl+Alt+A to paragraph beginning",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {
+                                        "mandatory": ["control", "option"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow",
+                                        "modifiers": ["option"]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
