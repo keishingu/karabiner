@@ -64,9 +64,7 @@
                             {
                                 "from": {
                                     "key_code": "spacebar",
-                                    "modifiers": {
-                                        "mandatory": ["command", "control"]
-                                    }
+                                    "modifiers": { "mandatory": ["command", "control"] }
                                 },
                                 "to": [
                                     {
@@ -155,7 +153,6 @@
                     },
                     {
                         "description": "Ctrl+1-9 to F1-F9",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -288,6 +285,14 @@
                     "identifiers": {
                         "is_keyboard": true,
                         "product_id": 34,
+                        "vendor_id": 1278
+                    }
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": true,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 21,
                         "vendor_id": 1278
                     }
                 }
