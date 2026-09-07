@@ -18,7 +18,9 @@ macOSのKarabiner-Elements設定と、WindowsのAutoHotkey v2設定を同じリ�
 | 入力 | 出力 |
 | --- | --- |
 | Ctrl + H/J/K/L | ←/↓/↑/→ |
+| Ctrl + Shift + H/J/K/L | 選択しながら←/↓/↑/→ |
 | Ctrl + A/E | 行頭/行末 |
+| Ctrl + Shift + A/E | 行頭/行末まで選択 |
 | Ctrl + F | →（1文字進む） |
 | Ctrl + D | Delete |
 | Ctrl + N/P | ↓/↑ |

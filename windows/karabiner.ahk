@@ -115,6 +115,12 @@ SendClean(keys) {
 #HotIf LayerAndLeftShiftOnly()
 *Space::SendClean("+{Enter}")
 *Tab::SendClean("^+{Tab}")
+*a::SendClean("+{Home}")
+*e::SendClean("+{End}")
+*h::SendClean("+{Left}")
+*j::SendClean("+{Down}")
+*k::SendClean("+{Up}")
+*l::SendClean("+{Right}")
 
 ; Ctrl + Option + H/L -> word navigation
 ; Ctrl + Option + A -> paragraph beginning
