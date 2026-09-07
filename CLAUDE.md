@@ -9,6 +9,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## 主要ファイル
 
 - `karabiner.json`: プロファイル、デバイス設定、キーマッピングを含むメイン設定ファイル
+- `windows/karabiner.ahk`: Windows向けAutoHotkey v2設定
+- `windows/key-inspector.ahk`: JISキーボードのVK/SC確認用ツール
 - `automatic_backups/`: Karabiner-Elementsが自動作成する設定ファイルのバックアップ
 
 ## 設定構造
