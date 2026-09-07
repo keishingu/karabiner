@@ -22,6 +22,8 @@ macOSのKarabiner-Elements設定と、WindowsのAutoHotkey v2設定を同じリ�
 | Ctrl + F | →（1文字進む） |
 | Ctrl + D | Delete |
 | Ctrl + N/P | ↓/↑ |
+| Ctrl + Tab | Ctrl + Tab（次のタブ） |
+| Ctrl + Shift + Tab | Ctrl + Shift + Tab（前のタブ） |
 | Ctrl + Space | Enter |
 | Ctrl + Shift + Space | Shift + Enter |
 | Ctrl + 左Win + Space | Ctrl + Enter |
